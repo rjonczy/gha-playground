@@ -24,4 +24,4 @@ jobs:
     steps:
       - name: "Print default variables"
         run: |
-          echo "${{ github.repository }}"
+          printenv
