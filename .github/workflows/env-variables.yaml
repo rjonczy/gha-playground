@@ -19,6 +19,7 @@ jobs:
         env:
           FNAME: Mona
 
+  # https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
   print_default_variables_job:
     runs-on: ubuntu-latest
     steps:
